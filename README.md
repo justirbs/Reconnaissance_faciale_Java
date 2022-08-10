@@ -32,3 +32,5 @@ Une fois le programme lancé, une interface utilisateur s'ouvre et vous permet d
 - l'image moyenne
 - l'évolution de l'erreur lors de la reconstruction de limage de votre choix
 - le test de reconnaissance de l'image de votre choix. Pour cela, sélectionnez une image dans le dossier `Photo` (les images de test sont nommées avec le préfixe "T")
+
+<p align="center"><img src="IMH.png" height="200"></p>
