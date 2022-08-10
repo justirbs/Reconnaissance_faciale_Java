@@ -1,17 +1,9 @@
-# Reconnaissance faciale par Analyse en Composantes Principales : Livrable 3
+# Reconnaissance faciale par Analyse en Composantes Principales
 
 ## Introduction
 
-Afin de visualiser la mise en page de ce document, il est conseillé de l'ouvrir avec un logiciel qui interprète le markdown.
-
-## Description
-
-Dans ce livrable nous avons implémenté l'interface utilisateur. Ainsi vous pouvez visualiser  :
-- les cinq premiers eigenfaces
-- l'image moyenne
-- l'évolution de l'erreur lors de la reconstruction de limage de votre choix
-- le test de reconnaissance de l'image de votre choix
-
+Les dernières technologies connues visant à réaliser une reconnaissance faciale éfficace, utilisent des bases de deep learning et d’Intelligence Artificielle. Dans le cadre de ce projet, nous n’utiliserons pas ce systeme d’apprentissage, mais la méthode d’Analyse en Composantes Principales.
+Nous avons réalisé ce projet en Java et nous avons utilisé une base d'apprentissage à partir de nos propores images.
 
 ## Manuel d'utilisation
 
@@ -32,3 +24,11 @@ java -jar --module-path /home/cytech/Cours/ING1/ProgJava/IHM/openjfx-18_linux-x6
 ```
 
 Dans ce cas, le dossier openjfx-18_linux-x64_bin-sdk se trouve dans les répertoires /home/cytech/Cours/ING1/ProgJava/IHM/
+
+## Description
+
+Une fois le programme lancé, une interface utilisateur s'ouvre et vous permet de visualiser  :
+- les cinq premiers eigenfaces
+- l'image moyenne
+- l'évolution de l'erreur lors de la reconstruction de limage de votre choix
+- le test de reconnaissance de l'image de votre choix. Pour cela, sélectionnez une image dans le dossier `Photo` (les images de test sont nommées avec le préfixe "T")
